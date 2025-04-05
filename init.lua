@@ -399,6 +399,9 @@ require('lazy').setup({
         --  All the info you're looking for is in `:help telescope.setup()`
         --
         defaults = {
+          -- start in normal mode instead of insert
+          -- when opening a picker
+          initial_mode = 'normal',
           mappings = {
             i = { ['<C-S>'] = 'select_vertical' },
             n = { ['<C-S>'] = 'select_vertical' },

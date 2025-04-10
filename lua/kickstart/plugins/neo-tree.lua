@@ -18,6 +18,10 @@ return {
       window = {
         mappings = {
           ['\\'] = 'close_window',
+          -- Open file in vertical split
+          ['v'] = 'open_vsplit',
+          -- Open file in horizontal split
+          ['s'] = 'open_split',
         },
       },
     },
